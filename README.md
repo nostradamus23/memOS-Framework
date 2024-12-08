@@ -19,7 +19,7 @@ MemOS AI is a groundbreaking framework that transforms static memes into interac
 - **Modern Web Interface**: Beautiful and intuitive user interface for interacting with the system
 
 
-### Frontend Setup
+### 📷 Frontend Setup
 
 Create a .env file with your OPENAI_API_KEY in the ui folder (we use OPENAI gpt-4o-mini model for the frontend example)
 
