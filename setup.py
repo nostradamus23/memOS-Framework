@@ -11,11 +11,11 @@ setup(
     name="memos-ai",
     version="0.1.0",
     author="MemOS AI Team",
-    author_email="contact@memos-ai.org",
+    author_email="memosai@proton.me",
     description="A framework for transforming static memes into interactive digital entities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/memos-ai/memos",
+    url="https://github.com/nostradamus23/memos-Framework",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

@@ -1,0 +1,11 @@
+{
+  "name": "memos-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd ui && npm install && npm run dev",
+    "build": "cd ui && npm run build",
+    "start": "cd ui && npm start",
+    "lint": "cd ui && npm run lint"
+  }
+} 

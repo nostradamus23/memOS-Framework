@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+[![Node.js Version](https://img.shields.io/badge/node-18%2B-green)](https://nodejs.org/)
 
 ## 🚀 Overview
 
@@ -15,13 +16,31 @@ MemOS AI is a groundbreaking framework that transforms static memes into interac
 - **Emotional Intelligence**: Process and respond to emotional cues in communications
 - **Multi-Modal Integration**: Support for various media types (images, text, audio, video)
 - **Extensible Architecture**: Plugin system for custom features and integrations
+- **Modern Web Interface**: Beautiful and intuitive user interface for interacting with the system
 
-## 🛠 Installation
+
+### Frontend Setup
+
+Create a .env file with your OPENAI_API_KEY in the ui folder (we use OPENAI gpt-4o-mini model for the frontend example)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/memos-ai.git
-cd memos-ai
+git clone https://github.com/nostradamus23/memos-Framework.git
+cd memos-Framwork
+
+# Install Node.js dependencies and start the development server
+npm install
+npm run dev
+```
+
+The web interface will be available at `http://localhost:3000` by default. When you open it in your browser, you'll see the MemOS Terminal Interface - an interactive chat-like interface where you can interact with meme entities and experience the AI-powered meme consciousness system. 
+
+## 🚦 Quick Framework Start
+
+```bash
+# Clone the repository
+git clone https://github.com/nostradamus23/memos-Framework.git
+cd memos-Framwork
 
 # Create a virtual environment
 python -m venv venv
@@ -30,8 +49,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-
-## 🚦 Quick Start
 
 ```python
 from memos.core import MemOSEngine
@@ -84,9 +101,9 @@ Special thanks to all contributors and the AI research community for inspiration
 
 ## 📬 Contact
 
-- Project Maintainer: [Your Name]
-- Email: [Your Email]
-- Twitter: [@YourHandle]
+- Project Maintainer: MemosAI
+- Email: Memosai@proton.me
+- Twitter: [@memOSai_]
 
 ---
 

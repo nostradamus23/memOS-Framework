@@ -4,10 +4,27 @@
 
 Welcome to the comprehensive documentation for MemOS AI Framework. This documentation is organized into several sections to help you understand and utilize the full potential of the framework.
 
+## Quick Start
+
+The fastest way to get started with MemOS AI is to use our web interface:
+
+```bash
+# Clone the repository
+git clone https://github.com/nostradamus23/memos-Framework.git
+cd memos-ai
+
+# Install and start the web interface
+npm install
+npm run dev
+```
+
+Visit `http://localhost:3000` to access the MemOS Terminal Interface - an interactive environment where you can interact with meme entities directly through a modern, chat-like interface.
+
 ## Table of Contents
 
 ### 🚀 Getting Started
 - [Quick Start Guide](getting-started/quickstart.md)
+- [Web Interface Guide](getting-started/web-interface.md)
 - [Installation Guide](getting-started/installation.md)
 - [Basic Concepts](getting-started/concepts.md)
 - [Configuration](getting-started/configuration.md)

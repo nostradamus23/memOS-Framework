@@ -104,7 +104,7 @@ Enhancement suggestions are tracked as GitHub issues. Create an issue and provid
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/memos.git
+git clone https://github.com/nostradamus23/memos-Framework.git
 cd memos
 
 # Create virtual environment

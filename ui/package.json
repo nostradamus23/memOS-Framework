@@ -1,0 +1,41 @@
+{
+  "name": "meme-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/verify-env.js && next dev",
+    "build": "node scripts/verify-env.js && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "ai": "^3.4.33",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "lucide-react": "^0.456.0",
+    "next": "14.2.16",
+    "openai": "^4.72.0",
+    "path": "^0.12.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.16",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5"
+  }
+}
